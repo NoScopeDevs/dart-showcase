@@ -12,7 +12,7 @@ void main() {
   pato.volar();
 }
 
-class Mamifero {
+class Animal {
   void moverse() {
     print('Animal se mueve');
   }
@@ -33,6 +33,6 @@ mixin Volar {
   }
 }
 
-class Perro extends Mamifero {}
+class Perro extends Animal {}
 
-class Pato extends Mamifero with Volar {}
+class Pato extends Animal with Volar {}
