@@ -1,5 +1,7 @@
 /*
 
+  Video guía del Flutter Team: https://www.youtube.com/watch?v=nQBpOIHE4eE
+
   Los streams proveen una secuencia asíncrona de data
   Las secuencias de data incluyen eventos generados por el usuario y data que se lee de archivos
   Podés procesar un stream usando await o listen() del Stream API
@@ -35,6 +37,8 @@ class Counter {
 void main() async {
   final subscription = Counter().stream.listen(
         (item) => print(item),
+        cancelOnError: false,
+        onError: (error) => print(error),
       );
 
   await Future.delayed(
