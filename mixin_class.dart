@@ -18,7 +18,7 @@ class Animal {
   }
 
   void nombre() {
-    print('Soy un Mamifero');
+    print('Soy un Animal');
   }
 }
 
