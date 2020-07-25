@@ -8,7 +8,8 @@
   Los streams proveen una gran forma de responder a errores
   Hay dos tipos de stream: de única suscripción o de broadcast (múltiples suscripciones)
 
-  Aquí tenemos el ejemplo del clásico contador recreado en consola con un stream
+  Aquí tenemos el ejemplo del clásico contador recreado en consola con un stream...
+  
 */
 
 import 'dart:async';
